@@ -22,7 +22,7 @@ import { Roadmap } from './components/Roadmap';
 export function App() {
   const [copied, setCopied] = useState(false);
   const [showDisclaimer, setShowDisclaimer] = useState(false);
-  const CONTRACT_ADDRESS = 'dotdRrN4PkyTwSGYj53cinbAJv9dCCWqTxZaKhNcQM2';
+  const CONTRACT_ADDRESS = 'ZACKAW4BUW247g2DtwXmE636FoZaeAXxfgjXmEi9nMN';
 
   useParallax();
 
@@ -88,7 +88,7 @@ export function App() {
 
             {/* Buy Now Button */}
             <a
-              href="https://pump.fun/dotdRrN4PkyTwSGYj53cinbAJv9dCCWqTxZaKhNcQM2"
+              href="https://pump.fun/ZACKAW4BUW247g2DtwXmE636FoZaeAXxfgjXmEi9nMN"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mb-12 px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full text-xl font-bold hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(96,165,250,0.3)] hover:shadow-[0_0_30px_rgba(96,165,250,0.5)]"
@@ -111,7 +111,7 @@ export function App() {
                 />
               </a>
               <a
-                href="https://t.me/moonzack"
+                href="https://t.me/moonzacksol"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative"
@@ -123,7 +123,7 @@ export function App() {
                 />
               </a>
               <a
-                href="https://pump.fun/dotdRrN4PkyTwSGYj53cinbAJv9dCCWqTxZaKhNcQM2"
+                href="https://pump.fun/ZACKAW4BUW247g2DtwXmE636FoZaeAXxfgjXmEi9nMN"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative"
