@@ -51,8 +51,3 @@ body {
 .parallax-card {
   transform: translate(var(--mouse-x), var(--mouse-y));
 }
-
-@font-face {
-  font-family: 'Day of the Dead';
-  src: url('https://fonts.cdnfonts.com/css/day-of-the-dead') format('woff2');
-}

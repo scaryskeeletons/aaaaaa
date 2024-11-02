@@ -16,7 +16,7 @@ export const TokenCard: React.FC<TokenCardProps> = ({ title, description, gradie
       <div className="absolute inset-0 shadow-[inset_0_0_100px_rgba(0,0,0,0.5)]" />
       <div className="relative">
         <span className="text-4xl mb-4 block filter drop-shadow-glow">{icon}</span>
-        <h3 className="text-3xl font-bold mb-4 font-display tracking-wide bg-gradient-to-r from-orange-200 to-yellow-200 text-transparent bg-clip-text drop-shadow-[0_0_8px_rgba(239,68,68,0.3)]">
+        <h3 className="text-3xl font-bold mb-4 font-display tracking-wide bg-gradient-to-r from-blue-200 to-purple-200 text-transparent bg-clip-text drop-shadow-[0_0_8px_rgba(96,165,250,0.3)]">
           {title}
         </h3>
         <p className="text-gray-300 text-lg font-mono">{description}</p>

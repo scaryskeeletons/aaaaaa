@@ -5,42 +5,42 @@ export const Roadmap: React.FC = () => {
   const phases = [
     {
       phase: 'Phase 1',
-      title: 'La Génesis',
+      title: 'The Time Out',
       items: [
-        'Token Launch on Raydium',
+        'Token Launch on Jupiter',
         'Website Launch',
         'Social Media Setup',
-        'Community Building'
+        'Bayside Community Building'
       ]
     },
     {
       phase: 'Phase 2',
-      title: 'El Crecimiento',
+      title: 'The Prep Rally',
       items: [
         'CoinGecko Listing',
         'CoinMarketCap Listing',
-        'Marketing Campaigns',
-        'Community Events'
+        'Viral Marketing Campaign',
+        'Community Events at The Max'
       ]
     },
     {
       phase: 'Phase 3',
-      title: 'La Evolución',
+      title: 'The Big Game',
       items: [
         'CEX Listings',
-        'NFT Collection Launch',
+        'NFT Yearbook Collection',
         'Staking Platform',
-        'Web3 App Integration'
+        'Web3 Zack Attack App'
       ]
     },
     {
       phase: 'Phase 4',
-      title: 'El Legado',
+      title: 'The Graduation',
       items: [
-        'Coin Bridge',
+        'Multi-Chain Bridge',
         'Mobile App Development',
         'Strategic Partnerships',
-        '& more.'
+        'To The Moon & Beyond'
       ]
     }
   ];
@@ -53,15 +53,15 @@ export const Roadmap: React.FC = () => {
           className="relative overflow-hidden rounded-2xl p-8 group hover:-translate-y-2 transition-all duration-300"
         >
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
-          <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 to-orange-500/20 opacity-20 group-hover:opacity-30 transition-opacity" />
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 opacity-20 group-hover:opacity-30 transition-opacity" />
           <div className="relative">
             <div className="flex items-center gap-2 mb-4">
-              <Rocket className="text-orange-400" size={20} />
-              <h3 className="text-xl font-bold font-display text-orange-200">
+              <Rocket className="text-blue-400" size={20} />
+              <h3 className="text-xl font-bold font-display text-blue-200">
                 {phase.phase}
               </h3>
             </div>
-            <h4 className="text-2xl font-bold mb-4 font-display bg-gradient-to-r from-orange-200 to-yellow-200 text-transparent bg-clip-text">
+            <h4 className="text-2xl font-bold mb-4 font-display bg-gradient-to-r from-blue-200 to-purple-200 text-transparent bg-clip-text">
               {phase.title}
             </h4>
             <ul className="space-y-2">
@@ -70,7 +70,7 @@ export const Roadmap: React.FC = () => {
                   key={itemIndex}
                   className="flex items-center gap-2 text-gray-300 font-mono"
                 >
-                  <span className="w-1.5 h-1.5 bg-orange-500 rounded-full" />
+                  <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
                   {item}
                 </li>
               ))}

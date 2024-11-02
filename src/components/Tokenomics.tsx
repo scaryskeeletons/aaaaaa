@@ -1,31 +1,31 @@
 import React from 'react';
-import { Coins, Factory, LineChart, Lock, Users } from 'lucide-react';
+import { Coins, Factory, LineChart, Lock, RocketIcon, Users } from 'lucide-react';
 
 export const Tokenomics: React.FC = () => {
   const stats = [
     {
       title: 'Total Supply',
       value: '1,000,000,000',
-      icon: <Coins className="text-orange-400" size={24} />,
-      gradient: 'from-orange-500 to-yellow-500'
+      icon: <Coins className="text-blue-400" size={24} />,
+      gradient: 'from-blue-500 to-purple-500'
     },
     {
       title: 'Tax',
       value: '0%',
-      icon: <LineChart className="text-red-400" size={24} />,
-      gradient: 'from-red-500 to-pink-500'
+      icon: <LineChart className="text-purple-400" size={24} />,
+      gradient: 'from-purple-500 to-indigo-500'
     },
     {
       title: 'Liquidity',
-      value: 'Burnt',
-      icon: <Lock className="text-purple-400" size={24} />,
-      gradient: 'from-purple-500 to-blue-500'
+      value: 'Locked',
+      icon: <Lock className="text-indigo-400" size={24} />,
+      gradient: 'from-indigo-500 to-blue-500'
     },
     {
-      title: 'FairLaunch',
-      value: 'No presale',
-      icon: <Factory className="text-purple-400" size={24} />,
-      gradient: 'from-green-500 to-emerald-500'
+      title: 'Launch',
+      value: 'Fair Launch',
+      icon: <RocketIcon className="text-blue-400" size={24} />,
+      gradient: 'from-blue-400 to-purple-400'
     },
   ];
 
@@ -43,7 +43,7 @@ export const Tokenomics: React.FC = () => {
               {stat.icon}
               <h3 className="text-lg text-gray-300 font-mono">{stat.title}</h3>
             </div>
-            <p className="text-3xl font-bold font-display bg-gradient-to-r from-orange-200 to-yellow-200 text-transparent bg-clip-text">
+            <p className="text-3xl font-bold font-display bg-gradient-to-r from-blue-200 to-purple-200 text-transparent bg-clip-text">
               {stat.value}
             </p>
           </div>
