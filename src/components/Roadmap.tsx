@@ -5,7 +5,7 @@ export const Roadmap: React.FC = () => {
   const phases = [
     {
       phase: 'Phase 1',
-      title: 'The Time Out',
+      title: 'Atmosphere',
       items: [
         'Token Launch on PumpFun',
         'Website Launch',
@@ -15,7 +15,7 @@ export const Roadmap: React.FC = () => {
     },
     {
       phase: 'Phase 2',
-      title: 'The Prep Rally',
+      title: 'Space',
       items: [
         'CoinGecko Listing',
         'CoinMarketCap Listing',
@@ -25,7 +25,7 @@ export const Roadmap: React.FC = () => {
     },
     {
       phase: 'Phase 3',
-      title: 'The Big Game',
+      title: 'Outerspace',
       items: [
         'CEX Listings',
         'Staking Platform',
@@ -34,7 +34,7 @@ export const Roadmap: React.FC = () => {
     },
     {
       phase: 'Phase 4',
-      title: 'The Graduation',
+      title: 'Intergalactic',
       items: [
         'Mobile App Development',
         'Strategic Partnerships',

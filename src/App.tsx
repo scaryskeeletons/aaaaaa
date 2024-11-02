@@ -159,7 +159,7 @@ export function App() {
         <section className="px-6 mb-32">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             <TokenCard
-              title="Time Out"
+              title="The Ride"
               description="Take a break from Earth's gravity and join us on our lunar journey"
               gradient="from-blue-500 to-purple-500"
               icon="🌙"
@@ -171,13 +171,13 @@ export function App() {
               icon="👨‍🚀"
             />
             <TokenCard
-              title="Astronomical Promise"
+              title="The Security"
               description="Liquidity locked tighter than Zack's perfectly styled hair"
               gradient="from-indigo-500 to-blue-500"
               icon="🔒"
             />
             <TokenCard
-              title="Morris Magic"
+              title="The Magic"
               description="Community-powered momentum to break Earth's atmosphere"
               gradient="from-blue-400 to-purple-400"
               icon="✨"
