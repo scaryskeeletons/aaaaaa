@@ -165,13 +165,13 @@ export function App() {
               icon="🌙"
             />
             <TokenCard
-              title="Preppy Squad"
+              title="The Squad"
               description="Join our elite community of moonbound astronauts"
               gradient="from-purple-500 to-indigo-500"
               icon="👨‍🚀"
             />
             <TokenCard
-              title="Bayside Promise"
+              title="Astronomical Promise"
               description="Liquidity locked tighter than Zack's perfectly styled hair"
               gradient="from-indigo-500 to-blue-500"
               icon="🔒"
