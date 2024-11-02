@@ -138,18 +138,18 @@ export function App() {
 
             {/* Contract Address */}
             <div
-              className="inline-flex items-center bg-gradient-to-r from-blue-900/40 to-purple-900/40 rounded-full px-6 py-3 backdrop-blur-sm hover:from-blue-800/40 hover:to-purple-800/40 transition-all cursor-pointer shadow-[0_0_15px_rgba(96,165,250,0.3)] hover:shadow-[0_0_20px_rgba(96,165,250,0.4)]"
+              className="inline-flex items-center bg-gradient-to-r from-blue-900/40 to-purple-900/40 rounded-full px-3 sm:px-6 py-3 backdrop-blur-sm hover:from-blue-800/40 hover:to-purple-800/40 transition-all cursor-pointer shadow-[0_0_15px_rgba(96,165,250,0.3)] hover:shadow-[0_0_20px_rgba(96,165,250,0.4)] max-w-full overflow-hidden"
               onClick={copyAddress}
             >
-              <code className="text-sm md:text-base mr-3 font-mono text-blue-200">
+              <code className="text-xs sm:text-sm md:text-base mr-3 font-mono text-blue-200 truncate">
                 {CONTRACT_ADDRESS}
               </code>
               {copied ? (
-                <span className="text-green-400 text-sm font-mono">
+                <span className="text-green-400 text-xs sm:text-sm font-mono shrink-0">
                   Copied! 🌙
                 </span>
               ) : (
-                <Copy size={16} className="text-blue-300" />
+                <Copy size={16} className="text-blue-300 shrink-0" />
               )}
             </div>
           </div>
@@ -207,16 +207,16 @@ export function App() {
 
         {/* Disclaimer */}
         <footer className="fixed bottom-4 left-0 right-0 flex justify-center z-20">
-        <button
-          onClick={() => setShowDisclaimer(true)}
-          className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 rounded-full backdrop-blur-sm transition-colors"
-        >
-          <Info size={16} className="text-blue-300" />
-          <span className="text-sm text-blue-200 font-mono">
-            Disclaimer
-          </span>
-        </button>
-      </footer>
+          <button
+            onClick={() => setShowDisclaimer(true)}
+            className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 rounded-full backdrop-blur-sm transition-colors"
+          >
+            <Info size={16} className="text-blue-300" />
+            <span className="text-sm text-blue-200 font-mono">
+              Disclaimer
+            </span>
+          </button>
+        </footer>
 
 
         {/* Disclaimer Modal */}
